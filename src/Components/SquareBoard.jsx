@@ -8,6 +8,8 @@ const SquareBoard = ({ brd, positionCntrl }) => {
     }),
   }));
 
+  // const image = require(`../public/assets/images/${brd.type}_${brd.color}.png`);
+
   return (
     <div ref={drag}>
       <DragPreviewImage
